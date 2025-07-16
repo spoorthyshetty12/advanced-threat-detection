@@ -1,0 +1,8 @@
+flask
+spacy
+face_recognition
+deepface
+requests
+beautifulsoup4
+pillow
+gunicorn

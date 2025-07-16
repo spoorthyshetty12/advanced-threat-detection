@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced Threat Detection</title>
+</head>
+<body>
+    <h1>Advanced Threat Detection</h1>
+    <form method="POST">
+        <input type="text" name="url" placeholder="Enter news article URL" required style="width: 300px;" />
+        <button type="submit">Analyze</button>
+    </form>
+    {% if message %}
+        <h3>Result:</h3>
+        <p>{{ message }}</p>
+    {% endif %}
+</body>
+</html>
